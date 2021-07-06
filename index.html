@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>MovieINFO | Get info on any Movie you want</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="author" content="Hrithik Mahajan | webdevhrithik" />
+</head>
+
+<body>
+  <!-- Navbar Section -->
+  <div class="navbar">
+    <nav>
+      <a href="index.html">
+        <img src="images/movieinfo.svg" height="25px" width="25px" />
+        <h1>MovieINFO</h1>
+      </a>
+      <ul>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Header Section -->
+  <header>
+    <h1>Get Info on Any Movie You Want !</h1>
+    <form id="searchForm">
+      <input type="text" placeholder="Search Movies..." id="searchText" />
+    </form>
+  </header>
+
+  <!-- output here in this div via js -->
+  <div id="movies"></div>
+  <!-- footer section -->
+  <footer>
+    <h5>Movieinfo Copyright@ : 2021</h5>
+  </footer>
+  <!-- script for movie app -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+</body>
+
+</html>
