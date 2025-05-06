@@ -42,6 +42,8 @@ function movieSelected(id) {
 }
 
 function getMovie() {
+  // getting the movie id
+  
   let movieId = sessionStorage.getItem('movieId');
 
   axios.get('http://www.omdbapi.com?i=' + movieId + '&apikey=fb22739f') // put your api key here
